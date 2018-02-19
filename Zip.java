@@ -1238,7 +1238,7 @@ public class Zip extends MatchingTask {
      * @exception BuildException if it likes
      * @since Ant 1.7
      */
-    protected ArchiveState getResourcesToAdd(final ResourceCollection[] rcs,
+    protected ArchiveState collectResourcesToAdd(final ResourceCollection[] rcs,
                                              final File zipFile,
                                              final boolean needsUpdate)
         throws BuildException {
